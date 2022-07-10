@@ -2,4 +2,4 @@
 
 ## Моя первая работа - она же моё резюме :) 
 
-[А посмореть его можно тут] {https://lartsevladimir.github.io/Resume/}
+[А посмореть его можно тут](https://lartsevladimir.github.io/Resume/)

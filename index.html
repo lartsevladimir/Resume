@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="html, css, it, frontend, backend, fullstack, web, сайт">
+    <meta name="description"
+        content="Это сайт-резюме начинающего веб-разработчика, который с радостьб возьмётся за создание Вашего будущего сайта мечты.">
+    <title>Главная страница</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <nav class="navbar">
+            <ul>
+                <li><a href="#myname">О себе</a></li>
+                <li class="liline">|</li>
+                <li><a href="#searches">Социальные сети</a></li>
+                <li class="liline">|</li>
+                <li><a href="#hobbies">Хобби</a></li>
+                <li class="liline">|</li>
+                <li><a href="#jobs">Опыт работы</a></li>
+                <li class="liline">|</li>
+                <li><a href="#message">Связаться со мной</a></li>
+                <li class="liline">|</li>
+                <li><a href="#top">Наверх</a></li>
+            </ul>
+        </nav>
+
+        <div class="info">
+            <div class="info-img" id="top">
+                <img src="imgs/Main.jpg" alt="Заглавная картинка резюме" id="avatar">
+            </div>
+            <div class="info-text">
+                <h1 id="myname">Владимир Ларцев</h1>
+                <p>Я начинающий <strong>веб-программист</strong> , который хочет сменить профессию и найти себя в
+                    <strong>IT-сфере</strong>.
+                </p>
+
+                <p>По мере разработки новых <em>проектов</em>, здесь будет постепенно создаваться и шириться моё
+                    <em>портфолио</em>,
+                    которое не оставит Вас равнодушным и натолкнет на правильный выбор в поисках
+                    <strong><em>веб-разработчика
+                            для своего проекта!</em></strong>
+                </p>
+            </div>
+        </div>
+
+
+        <div class="card" id="searches">
+            <p><strong>Социальных сетей у меня нет</strong>, поэтому ищите моё резюме через эти
+                <strong>поисковики:</strong>
+            </p>
+            <p>
+                <a href="https://google.com" target="_blank">Google</a> |
+                <a href="https://yandex.ru" target="_blank">Yandex</a> |
+                <a href="https://mail.ru" target="_blank">Mail</a><br>
+            </p>
+        </div>
+
+        <div class="card" id="hobbies">
+            <h2>Мои хобби:</h2>
+            <ol class="hobbies">
+                <li>Футбол</li>
+                <li>Путешествия</li>
+                <li>Литература</li>
+            </ol>
+        </div>
+
+        <div class="card" id="jobs">
+            <h2>Опыт работы</h2>
+            <table class="jobs">
+                <thead>
+                    <tr>
+                        <th>Название</th>
+                        <th>Должность</th>
+                        <th>Год</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Школа</td>
+                        <td>Ученик</td>
+                        <td>2001-2012</td>
+                    </tr>
+                    <tr>
+                        <td>Институт</td>
+                        <td>Студент</td>
+                        <td>2012-2017</td>
+                    </tr>
+                    <tr>
+                        <td>Работа</td>
+                        <td>Инженер</td>
+                        <td>2017-по н.в.</td>
+                    </tr>
+                </tbody>
+
+            </table>
+        </div>
+
+        <div class="card" id="message">
+            <h2>Связаться со мной</h2>
+            <form class="form">
+                <div class="mesform">
+                    <label for="name">Ваше имя: </label><br>
+                    <input type="text" id="name" placeholder="Введите имя">
+                </div>
+
+                <div class="mesform">
+                    <label for="mail">Ваш email: </label><br>
+                    <input type="email" id="mail" placeholder="Введите email">
+                </div>
+
+                <div>
+                    <label for="message">Ваше сообщение: </label>
+                    <br>
+                    <textarea id="message" placeholder="Введите сообщение"></textarea>
+                </div>
+
+                <button class="btn" type="submit">Отправить!</button>
+
+            </form>
+        </div>
+
+    </div>
+</body>
+
+</html>

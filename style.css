@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: honeydew;
+
+    font-family: 'Caveat', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    color: rgb(19, 92, 217);
+}
+
+input {
+    width: 100%;
+    color: rgb(19, 92, 217);
+    background-color: rgba(175, 159, 100, 0.3);
+    border: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+textarea {
+    border: 0;
+    width: 98.5%;
+    color: rgb(19, 92, 217);
+    background-color: rgba(175, 159, 100, 0.3);
+    box-sizing: border-box;
+    margin: 5px;
+    margin-left: 0px;
+    outline: none;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2,
+p {
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: crimson;
+}
+
+a:hover {
+    color: coral;
+}
+
+a:active {
+    color: goldenrod;
+}
+
+.navbar {
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 0;
+    width: 100%;
+    background: rgba(175, 159, 100, 1);
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    margin-left: 13%;
+}
+
+.navbar ul li {
+    padding: 2px 5px;
+}
+
+.navbar ul li:hover {
+    background: chocolate;
+}
+
+.navbar .liline {
+    color: crimson;
+}
+
+.navbar .liline:hover {
+    background: none;
+}
+
+.container {
+    max-width: 75%;
+    margin: auto;
+}
+
+.info {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    text-decoration: firebrick underline;
+    padding: 5px;
+    margin-top: 50px;
+    position: relative;
+}
+
+.info-img {
+    display: inline-block;
+    width: 19%;
+    box-sizing: border-box;
+}
+
+.info-text {
+    display: inline-block;
+    width: 79%;
+    padding-left: 5px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+}
+
+.card {
+    margin-bottom: 5px;
+    padding: 0;
+    border: 2px solid darkgoldenrod;
+    border-radius: 5px;
+    background-color: rgba(175, 159, 100, 0.3);
+}
+
+.btn {
+    background: khaki;
+    color: crimson;
+    padding: 10px 15px;
+    font-family: inherit;
+    border: none;
+    border-radius: 5px;
+    transition: 2s;
+}
+
+.btn:hover {
+    cursor: pointer;
+    opacity: 0.9;
+    background: sienna;
+    color: rgb(5, 19, 218);
+}
+
+.hobbies {
+    margin: 0;
+    padding: 0;
+}
+
+.hobbies li {
+    margin: 0px 20px;
+    padding: 2px 5px;
+}
+
+.jobs {
+    width: 100%;
+    margin: 0;
+    padding: 5px 5px;
+    text-align: center;
+}
+
+.jobs td,
+th {
+    margin: 0px 0px;
+    padding: 0px 3px;
+    border: 2px solid darkgoldenrod;
+}
+
+.jobs th {
+    background: rgba(175, 159, 100, 0.3);
+}
+
+.jobs td:first-child {
+    background: rgba(175, 159, 100, 0.3);
+}
+
+.jobs td:hover {
+    color: coral;
+}
+
+.form {
+    padding: 5px 5px;
+}
+
+.mesform {
+    display: inline-block;
+    width: 49%;
+    box-sizing: border-box;
+
+}
+
+#avatar {
+    width: 100%;
+    border-radius: 28px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+    margin: auto;
+}
+
+@media (max-width: 1150px) {
+    .info-img {
+        display: block;
+        width: 50%;
+        box-sizing: border-box;
+        margin: auto;
+    }
+
+    .info-text {
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+        margin: auto;
+        position: static;
+        padding-left: 0px;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .navbar ul li {
+        font-size: 12px;
+        padding: 2px 2px;
+    }
+
+}
